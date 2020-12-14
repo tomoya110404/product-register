@@ -11,7 +11,7 @@ services:
     volumes:
       - '.:/product-register'
     environment: 
-      - POSTGRES_HOST_AUTH_METHOD=trust
+      - "POSTGRES_HOST_AUTH_METHOD=trust"
     tty: true
     stdin_open: true    
     depends_on: 
